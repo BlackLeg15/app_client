@@ -77,10 +77,12 @@ packages:
   lifecare_design_system:
     dependency: "direct main"
     description:
-      path: "../modules/lifecare_design_system"
-      relative: true
-    source: path
-    version: "0.0.2"
+      path: "."
+      ref: "9b428a144b2cd881a91dce7455ca68814810c275"
+      resolved-ref: "9b428a144b2cd881a91dce7455ca68814810c275"
+      url: "https://github.com/BlackLeg15/lifecare_design_system"
+    source: git
+    version: "0.0.4"
   lints:
     dependency: transitive
     description:

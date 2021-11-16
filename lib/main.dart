@@ -9,7 +9,13 @@ class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
 
   @override
-  Widget build(BuildContext context) => MaterialApp(title: 'Flutter Demo', theme: lightTheme, home: const MyHomePage(title: 'Flutter Demo Home Page'));
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'Flutter Demo',
+      theme: lightTheme,
+      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+    );
+  }
 }
 
 class MyHomePage extends StatefulWidget {

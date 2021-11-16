@@ -28,7 +28,12 @@ environment:
 # versions available, run `flutter pub outdated`.
 dependencies:
   lifecare_design_system:
-    path: ../modules/lifecare_design_system
+    # path: ../modules/lifecare_design_system
+    git: 
+      url: https://github.com/BlackLeg15/lifecare_design_system
+      ## TODO Fix tag usage
+      # tag: 'v0.0.4'
+      ref: 9b428a144b2cd881a91dce7455ca68814810c275
   flutter:
     sdk: flutter
 
