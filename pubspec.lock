@@ -78,7 +78,7 @@ packages:
     dependency: "direct main"
     description:
       path: "."
-      ref: "9b428a144b2cd881a91dce7455ca68814810c275"
+      ref: "v0.0.4"
       resolved-ref: "9b428a144b2cd881a91dce7455ca68814810c275"
       url: "https://github.com/BlackLeg15/lifecare_design_system"
     source: git
